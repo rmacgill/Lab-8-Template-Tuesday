@@ -77,4 +77,13 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * Look for a city in the list by name
+     * @param cityName City to look for by name
+     * @return The city if found, null otherwise.
+     */
+    public City getCity(String cityName) {
+        return null;
+    }
 }
