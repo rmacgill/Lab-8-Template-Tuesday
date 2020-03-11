@@ -84,6 +84,12 @@ public class CityList {
      * @return The city if found, null otherwise.
      */
     public City getCity(String cityName) {
+        for (int i = 0; i < cities.size(); ++i)
+        {
+            if (cities.get(i).getCityName() == cityName) {
+                return cities.get(i);
+            }
+        }
         return null;
     }
 }

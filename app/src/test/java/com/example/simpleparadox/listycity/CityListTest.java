@@ -98,7 +98,7 @@ class CityListTest {
     void testGetCity() {
         City testCity = mockCity();
         CityList cityList = new CityList();
-        cityList.add(mockCity());
+        cityList.add(testCity);
         assertEquals(cityList.getCity("Edmonton"), testCity);
     }
 }
